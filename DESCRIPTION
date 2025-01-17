@@ -1,0 +1,18 @@
+Package: Classprob
+Title: Calculate Classification Model Performance Metrics with Confidence Intervals
+Version: 0.1.0
+Authors@R: 
+    person("XJ", "H", , "huxiaojiang2021@163.com", role = c("aut", "cre"))
+Description: Description: This package provides functions to calculate various performance metrics for classification models, including AUC, sensitivity, specificity, NPV, PPV, and accuracy. It also computes 95% confidence intervals for these metrics using bootstrap methods.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports:
+    pROC,
+    boot,
+    caret,
+    dplyr
+Suggests:
+    testthat (>= 3.0.0)
+RoxygenNote: 7.3.2
+Config/testthat/edition: 3
